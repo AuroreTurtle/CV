@@ -1,0 +1,72 @@
+/* CSS pour le CV */
+body
+{
+	background-color: rgba(0, 100, 255, 0.1);
+}
+
+h1
+{
+	text-align: center;
+}
+
+.intro
+{
+	text-align: center;
+	font-size:1.3em;
+	border: 3px blue dotted;
+	
+}
+
+h2
+{
+	font-family: "Brush Script MT", "Brush Script Std", cursive;
+	color: blue;
+	font-size:2em;
+}
+
+/* Bandeau à gauche */
+#nom
+{
+	text-align: center;
+	font-size:1.7em;
+}
+
+#liseret, #contenu
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#liseret
+{   
+    width: 20%;
+    margin-right: 2%;
+    height: 980px;
+	background-color: rgba(0, 100, 255, 0.5);
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+#contenu
+{
+    width: 75%;
+}
+
+section
+{
+	margin-left: 2%;
+}
+
+/* Responsive design */
+@media screen and (max-width: 1124px)
+{
+	#liseret
+	{   
+		width: 30%;
+		height: 1200px;
+	}
+	#contenu
+	{
+		width: 65%;
+	}
+}
