@@ -1,72 +1,69 @@
 /* CSS pour le CV */
-body
-{
-	background-color: rgba(0, 100, 255, 0.1);
+body {
+    background-color: rgba(0, 100, 255, 0.1);
 }
 
-h1
-{
-	text-align: center;
+h1 {
+    text-align: center;
 }
 
-.intro
-{
-	text-align: center;
-	font-size:1.3em;
-	border: 3px blue dotted;
-	
+.intro {
+    text-align: center;
+    font-size: 1.3em;
+    border: 3px blue dotted;
 }
 
-h2
-{
-	font-family: "Brush Script MT", "Brush Script Std", cursive;
-	color: blue;
-	font-size:2em;
+h2 {
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    color: blue;
+    font-size: 2em;
+}
+
+ul {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+dt {
+    margin-top: 20px;
 }
 
 /* Bandeau à gauche */
-#nom
-{
-	text-align: center;
-	font-size:1.7em;
+#nom {
+    text-align: center;
+    font-size: 1.7em;
 }
 
-#liseret, #contenu
-{
+#liseret,
+#contenu {
     display: inline-block;
     vertical-align: top;
 }
 
-#liseret
-{   
+#liseret {
     width: 20%;
     margin-right: 2%;
-    height: 980px;
-	background-color: rgba(0, 100, 255, 0.5);
+    height: 1250px;
+    background-color: rgba(0, 100, 255, 0.5);
     border: 1px solid blue;
     border-radius: 10px;
 }
 
-#contenu
-{
+#contenu {
     width: 75%;
 }
 
-section
-{
-	margin-left: 2%;
+section {
+    margin-left: 2%;
 }
 
 /* Responsive design */
-@media screen and (max-width: 1124px)
-{
-	#liseret
-	{   
-		width: 30%;
-		height: 1200px;
-	}
-	#contenu
-	{
-		width: 65%;
-	}
+@media screen and (max-width: 1124px) {
+    #liseret {
+        width: 30%;
+        height: 1200px;
+    }
+    #contenu {
+        width: 65%;
+    }
 }
